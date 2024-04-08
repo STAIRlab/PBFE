@@ -3,4 +3,6 @@ seaborn
 matplotlib
 numpy
 pandas
-scipy
+scipymdof
+sdof
+geopy
