@@ -1,0 +1,65 @@
+[project]
+name = "pbfe"
+version = "0.0.0"
+license = {file = "LICENSE.txt"}
+authors = [
+  {name="Fan Hu", email="50180406+x@users.noreply.github.com"},
+]
+
+description="."
+readme = "README.md"
+
+keywords = [
+  "dynamics",
+  "integration",
+  "seismic",
+  "earthquake-engineering",
+] 
+
+dependencies = [
+  "mdof",
+  "sees",
+  "opensees"
+]
+
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Intended Audience :: Science/Research',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: BSD License',
+    'Programming Language :: C',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: Implementation :: CPython',
+    'Topic :: Software Development',
+    'Topic :: Scientific/Engineering',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: POSIX',
+    'Operating System :: Unix',
+    'Operating System :: MacOS',
+]
+
+[project.urls]
+Repository = "http://github.com/STAIRlab/PBFE"
+
+
+[build-system]
+requires = [
+  "setuptools >= 52.0.2",
+]
+
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

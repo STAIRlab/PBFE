@@ -1,0 +1,8 @@
+opensees>=0.0.58
+seaborn
+matplotlib
+numpy
+pandas
+scipymdof
+sdof
+geopy
