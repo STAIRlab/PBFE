@@ -26,7 +26,7 @@ PBFE stands for [Performance Based Engineering for Resilient Food Industry](http
 <!--- Everything Here Will Be Commented OUT --->
 <!--- ![Figure 1](./figures/PBFE.png) --->
 <p align="center">
-  <img src="https://github.com/hufanyoung/PBFE/blob/main/figures/PBFE.png" width="80%">
+  <img src="https://raw.githubusercontent.com/hufanyoung/PBFE/main/figures/PBFE.png" width="80%">
 </p>
 
 ### Results
@@ -39,7 +39,7 @@ PBFE consists of four phases (environmental hazard analysis, crop growth analysi
 
 <!--- ![Figure 2](./figures/pbfe_formulation.png) --->
 <p align="center">
-  <img src="https://github.com/hufanyoung/PBFE/blob/main/figures/pbfe_formulation.png" width="60%">
+  <img src="https://raw.githubusercontent.com/hufanyoung/PBFE/main/figures/pbfe_formulation.png" width="60%">
 </p>
 
 A branch graph (Figure 3) can be used to visualize the computations and to clarify the formulation and the numerical process. Since currently there is not sufficient data to quantify the probabilities, the developed script used some hypothetical values for each phase, resulting in the loss curve shown in Figure 4 as a demonstrative application.
@@ -48,14 +48,14 @@ A branch graph (Figure 3) can be used to visualize the computations and to clari
 
 <!--- ![Figure 3](./figures/branch_hl.png) --->
 <p align="center">
-  <img src="https://github.com/hufanyoung/PBFE/blob/main/figures/branch_hl.png" width="60%">
+  <img src="https://raw.githubusercontent.com/hufanyoung/PBFE/main/figures/branch_hl.png" width="60%">
 </p>
 
 *Figure 4. Example loss curve obtained by the PBFE methodology.*
 
 <!--- ![Figure 4](./figures/loss_curve.png) --->
 <p align="center">
-  <img src="https://github.com/hufanyoung/PBFE/blob/main/figures/loss_curve.png" width="50%">
+  <img src="https://raw.githubusercontent.com/hufanyoung/PBFE/main/figures/loss_curve.png" width="50%">
 </p>
 
 We selected *drought* as the environmental hazard variable in phase 1. For environmental hazard analysis, we collected weather data in California and developed a decision tree and a random forest model for drought classifications (D0, D1, D2, D3, & D4). The details and results can be found in the [./scripts/drought](https://github.com/hufanyoung/PBFE/tree/main/scripts/drought) folder. 
