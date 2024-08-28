@@ -47,7 +47,7 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "http://github.com/STAIRlab/PBFE"
+Repository = "http://github.com/hufanyoung/PBFE"
 
 
 [build-system]
